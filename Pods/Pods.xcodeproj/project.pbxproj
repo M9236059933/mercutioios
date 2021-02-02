@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		22F2EA961C621941758F02B80DE4B138 /* Pods-MFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A7AA1D4F2CBDFAF07DBE42BF7B9A9 /* Pods-MFramework-dummy.m */; };
+		31313E435DAC8C5DEC96B2A845C7BCA2 /* Pods-MercutioProject-Mercutio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F8106AC8C1E3724E7CE5E8167837C /* Pods-MercutioProject-Mercutio-dummy.m */; };
+		69411BF7C7257963A326E6478807A059 /* Pods-MercutioProject-MercutioTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5764A699E9AD87F1E90389E92D8384 /* Pods-MercutioProject-MercutioTests-dummy.m */; };
+		6F0532248CE5AEBE142EFC794F4E12A4 /* Pods-MFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E904AFD8230CC8759BB9DD436E7278E6 /* Pods-MFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062E0B4B0CBDD408A5D10C2F21C48CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B5FB71B10B62335BF0295A3D103D4416 /* Pods-MercutioProject-MercutioTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C83B4AEEA3B41B6AD98778B6C848E1 /* Pods-MercutioProject-MercutioTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6373E44B2FA472E334F51E361D9A727 /* Pods-MercutioProject-Mercutio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBDEE0F63F089EE5333575CDFE03CC2C /* Pods-MercutioProject-Mercutio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9DA15B12C565C1E8C56792387E55628 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF0E2183E992CB9BCB3E987E8119331B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B21265F3A251CCA3595ED1E1433AF41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E069DFE647238FCE93B95D64340475 /* Pods-MFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MFramework.modulemap"; sourceTree = "<group>"; };
+		142835FD43D11FA3943E298509A72A91 /* Pods-MFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFramework.release.xcconfig"; sourceTree = "<group>"; };
+		2C5764A699E9AD87F1E90389E92D8384 /* Pods-MercutioProject-MercutioTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MercutioProject-MercutioTests-dummy.m"; sourceTree = "<group>"; };
+		3A09B8299CF104A97FF6A5FB594018F3 /* Pods-MercutioProject-Mercutio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MercutioProject-Mercutio-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C12F889C48A09142212D3F8FB440EC6 /* Pods_MercutioProject_Mercutio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MercutioProject_Mercutio.framework; path = "Pods-MercutioProject-Mercutio.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		4197F08FD8A51EA1BE70F4D9BAC04336 /* Pods-MercutioProject-MercutioTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MercutioProject-MercutioTests.modulemap"; sourceTree = "<group>"; };
+		41C4121ABA523FEBAE7AB207E016AF99 /* Pods-MFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		458B17A5842A049244EB626C5654F769 /* Pods-MFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F7082726A389663B77EFA67D647E140 /* Pods-MercutioProject-Mercutio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercutioProject-Mercutio.debug.xcconfig"; sourceTree = "<group>"; };
+		65D5F608F7DC9D42738335B11CBD5ECA /* Pods_MercutioProject_MercutioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MercutioProject_MercutioTests.framework; path = "Pods-MercutioProject-MercutioTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C83B4AEEA3B41B6AD98778B6C848E1 /* Pods-MercutioProject-MercutioTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MercutioProject-MercutioTests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		752FDE7F10A5651AA3FDBC2BAE09E749 /* Pods-MFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		8706C76A8FCD8C3D649A24BE351FA4A3 /* Pods-MercutioProject-Mercutio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercutioProject-Mercutio.release.xcconfig"; sourceTree = "<group>"; };
+		887A6EAC3F5AB6F6989D13AD86C435B8 /* Pods_MFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MFramework.framework; path = "Pods-MFramework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		893A7AA1D4F2CBDFAF07DBE42BF7B9A9 /* Pods-MFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MFramework-dummy.m"; sourceTree = "<group>"; };
+		8B9F8106AC8C1E3724E7CE5E8167837C /* Pods-MercutioProject-Mercutio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MercutioProject-Mercutio-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0841491F5F5190266415EC8EE043A82 /* Pods-MercutioProject-MercutioTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MercutioProject-MercutioTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABA8753187C5F32D1348D77B73141313 /* Pods-MercutioProject-MercutioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercutioProject-MercutioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD3713DC422D3F52CDE70CF04C970673 /* Pods-MercutioProject-MercutioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercutioProject-MercutioTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1BAF618C66922EE7056CC5975A79649 /* Pods-MercutioProject-MercutioTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MercutioProject-MercutioTests-Info.plist"; sourceTree = "<group>"; };
+		D775E99B751FEE49EBFD182C5B6D3A4F /* Pods-MercutioProject-Mercutio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MercutioProject-Mercutio-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBFF34D1DF0B4AF13F8E1C399F94C726 /* Pods-MFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MFramework-Info.plist"; sourceTree = "<group>"; };
+		E904AFD8230CC8759BB9DD436E7278E6 /* Pods-MFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MFramework-umbrella.h"; sourceTree = "<group>"; };
+		ED4CABA0521F06E97D24BEC08D76F526 /* Pods-MercutioProject-Mercutio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MercutioProject-Mercutio-Info.plist"; sourceTree = "<group>"; };
+		F0BE4FFEB46FE207D762E4AE1235A18C /* Pods-MercutioProject-MercutioTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MercutioProject-MercutioTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F21948FAE8BDC1AFB2F3953501FD0D34 /* Pods-MercutioProject-Mercutio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MercutioProject-Mercutio.modulemap"; sourceTree = "<group>"; };
+		FBDEE0F63F089EE5333575CDFE03CC2C /* Pods-MercutioProject-Mercutio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MercutioProject-Mercutio-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39533B6FF947171F553FEF23B64139EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8062E0B4B0CBDD408A5D10C2F21C48CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922DE7442A29BDE9562D96FA804AEBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DA15B12C565C1E8C56792387E55628 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85D54979DF5A866FC8E727A1BB8579B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0E2183E992CB9BCB3E987E8119331B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18571DA1680531EC4A5DE4004B889757 /* Pods-MFramework */ = {
+			isa = PBXGroup;
+			children = (
+				01E069DFE647238FCE93B95D64340475 /* Pods-MFramework.modulemap */,
+				458B17A5842A049244EB626C5654F769 /* Pods-MFramework-acknowledgements.markdown */,
+				752FDE7F10A5651AA3FDBC2BAE09E749 /* Pods-MFramework-acknowledgements.plist */,
+				893A7AA1D4F2CBDFAF07DBE42BF7B9A9 /* Pods-MFramework-dummy.m */,
+				DBFF34D1DF0B4AF13F8E1C399F94C726 /* Pods-MFramework-Info.plist */,
+				E904AFD8230CC8759BB9DD436E7278E6 /* Pods-MFramework-umbrella.h */,
+				41C4121ABA523FEBAE7AB207E016AF99 /* Pods-MFramework.debug.xcconfig */,
+				142835FD43D11FA3943E298509A72A91 /* Pods-MFramework.release.xcconfig */,
+			);
+			name = "Pods-MFramework";
+			path = "Target Support Files/Pods-MFramework";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CFDB17BDB202BFD956C73AD5343A9A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C12F889C48A09142212D3F8FB440EC6 /* Pods_MercutioProject_Mercutio.framework */,
+				65D5F608F7DC9D42738335B11CBD5ECA /* Pods_MercutioProject_MercutioTests.framework */,
+				887A6EAC3F5AB6F6989D13AD86C435B8 /* Pods_MFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABFA978BCB852923682B00F123ED0631 /* Pods-MercutioProject-MercutioTests */ = {
+			isa = PBXGroup;
+			children = (
+				4197F08FD8A51EA1BE70F4D9BAC04336 /* Pods-MercutioProject-MercutioTests.modulemap */,
+				F0BE4FFEB46FE207D762E4AE1235A18C /* Pods-MercutioProject-MercutioTests-acknowledgements.markdown */,
+				A0841491F5F5190266415EC8EE043A82 /* Pods-MercutioProject-MercutioTests-acknowledgements.plist */,
+				2C5764A699E9AD87F1E90389E92D8384 /* Pods-MercutioProject-MercutioTests-dummy.m */,
+				C1BAF618C66922EE7056CC5975A79649 /* Pods-MercutioProject-MercutioTests-Info.plist */,
+				71C83B4AEEA3B41B6AD98778B6C848E1 /* Pods-MercutioProject-MercutioTests-umbrella.h */,
+				ABA8753187C5F32D1348D77B73141313 /* Pods-MercutioProject-MercutioTests.debug.xcconfig */,
+				BD3713DC422D3F52CDE70CF04C970673 /* Pods-MercutioProject-MercutioTests.release.xcconfig */,
+			);
+			name = "Pods-MercutioProject-MercutioTests";
+			path = "Target Support Files/Pods-MercutioProject-MercutioTests";
+			sourceTree = "<group>";
+		};
+		B4727193C56842CFD9C60962A9C71365 /* Pods-MercutioProject-Mercutio */ = {
+			isa = PBXGroup;
+			children = (
+				F21948FAE8BDC1AFB2F3953501FD0D34 /* Pods-MercutioProject-Mercutio.modulemap */,
+				3A09B8299CF104A97FF6A5FB594018F3 /* Pods-MercutioProject-Mercutio-acknowledgements.markdown */,
+				D775E99B751FEE49EBFD182C5B6D3A4F /* Pods-MercutioProject-Mercutio-acknowledgements.plist */,
+				8B9F8106AC8C1E3724E7CE5E8167837C /* Pods-MercutioProject-Mercutio-dummy.m */,
+				ED4CABA0521F06E97D24BEC08D76F526 /* Pods-MercutioProject-Mercutio-Info.plist */,
+				FBDEE0F63F089EE5333575CDFE03CC2C /* Pods-MercutioProject-Mercutio-umbrella.h */,
+				5F7082726A389663B77EFA67D647E140 /* Pods-MercutioProject-Mercutio.debug.xcconfig */,
+				8706C76A8FCD8C3D649A24BE351FA4A3 /* Pods-MercutioProject-Mercutio.release.xcconfig */,
+			);
+			name = "Pods-MercutioProject-Mercutio";
+			path = "Target Support Files/Pods-MercutioProject-Mercutio";
+			sourceTree = "<group>";
+		};
+		B6506AEB0D7C0FE80510CD69B49C5CAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4727193C56842CFD9C60962A9C71365 /* Pods-MercutioProject-Mercutio */,
+				ABFA978BCB852923682B00F123ED0631 /* Pods-MercutioProject-MercutioTests */,
+				18571DA1680531EC4A5DE4004B889757 /* Pods-MFramework */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				9CFDB17BDB202BFD956C73AD5343A9A3 /* Products */,
+				B6506AEB0D7C0FE80510CD69B49C5CAC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71A1AD48B25F46D5A266227CBFCD5B84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6373E44B2FA472E334F51E361D9A727 /* Pods-MercutioProject-Mercutio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F808FE936014497DE5ADFE875DF301D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0532248CE5AEBE142EFC794F4E12A4 /* Pods-MFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67771E6E6DF980C0F0A44ACE6BFC138 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FB71B10B62335BF0295A3D103D4416 /* Pods-MercutioProject-MercutioTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BFC1244F4DE2FB741A1B46BB824A6FA /* Pods-MFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75317CC69C99BC3E35086671716C8735 /* Build configuration list for PBXNativeTarget "Pods-MFramework" */;
+			buildPhases = (
+				8F808FE936014497DE5ADFE875DF301D /* Headers */,
+				DD543EDCE384A0CB1AE6DE54A7371E30 /* Sources */,
+				922DE7442A29BDE9562D96FA804AEBAA /* Frameworks */,
+				48378D6823D4E2EE4F82ECE2943F1727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MFramework";
+			productName = "Pods-MFramework";
+			productReference = 887A6EAC3F5AB6F6989D13AD86C435B8 /* Pods_MFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13EBE7DB2ADE38E9265285F97B7D238F /* Pods-MercutioProject-Mercutio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C85F6701630DACAC73C54B3A02C321 /* Build configuration list for PBXNativeTarget "Pods-MercutioProject-Mercutio" */;
+			buildPhases = (
+				71A1AD48B25F46D5A266227CBFCD5B84 /* Headers */,
+				18593CFB1EB92AAC9A33941904D061AB /* Sources */,
+				F85D54979DF5A866FC8E727A1BB8579B /* Frameworks */,
+				02A9E1742C1D0517FFBD9D2BB62DF743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4BD71652D80C233E4A072748DF74B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-MercutioProject-Mercutio";
+			productName = "Pods-MercutioProject-Mercutio";
+			productReference = 3C12F889C48A09142212D3F8FB440EC6 /* Pods_MercutioProject_Mercutio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B40975FE58B240D74F52445350E20195 /* Pods-MercutioProject-MercutioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A766610912C05B3476DA15ED51F42B /* Build configuration list for PBXNativeTarget "Pods-MercutioProject-MercutioTests" */;
+			buildPhases = (
+				E67771E6E6DF980C0F0A44ACE6BFC138 /* Headers */,
+				CED5178D9D535676DC6986347BE7C9D1 /* Sources */,
+				39533B6FF947171F553FEF23B64139EB /* Frameworks */,
+				9301ACE04F31D10BCEF10DEF1D59298A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MercutioProject-MercutioTests";
+			productName = "Pods-MercutioProject-MercutioTests";
+			productReference = 65D5F608F7DC9D42738335B11CBD5ECA /* Pods_MercutioProject_MercutioTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9CFDB17BDB202BFD956C73AD5343A9A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13EBE7DB2ADE38E9265285F97B7D238F /* Pods-MercutioProject-Mercutio */,
+				B40975FE58B240D74F52445350E20195 /* Pods-MercutioProject-MercutioTests */,
+				0BFC1244F4DE2FB741A1B46BB824A6FA /* Pods-MFramework */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02A9E1742C1D0517FFBD9D2BB62DF743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48378D6823D4E2EE4F82ECE2943F1727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9301ACE04F31D10BCEF10DEF1D59298A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18593CFB1EB92AAC9A33941904D061AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31313E435DAC8C5DEC96B2A845C7BCA2 /* Pods-MercutioProject-Mercutio-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED5178D9D535676DC6986347BE7C9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69411BF7C7257963A326E6478807A059 /* Pods-MercutioProject-MercutioTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD543EDCE384A0CB1AE6DE54A7371E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F2EA961C621941758F02B80DE4B138 /* Pods-MFramework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC4BD71652D80C233E4A072748DF74B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = B21265F3A251CCA3595ED1E1433AF41F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		643175457B6F5C693FA4BBCA5B27DF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA8753187C5F32D1348D77B73141313 /* Pods-MercutioProject-MercutioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MercutioProject-MercutioTests/Pods-MercutioProject-MercutioTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MercutioProject-MercutioTests/Pods-MercutioProject-MercutioTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		788388B7D402E8B1159EF9EE7F8BE07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8706C76A8FCD8C3D649A24BE351FA4A3 /* Pods-MercutioProject-Mercutio.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MercutioProject-Mercutio/Pods-MercutioProject-Mercutio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MercutioProject-Mercutio/Pods-MercutioProject-Mercutio.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9223C8BD097CDE0D1E9035C57F0629B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142835FD43D11FA3943E298509A72A91 /* Pods-MFramework.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MFramework/Pods-MFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MFramework/Pods-MFramework.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A296DDC93FF02BB527B76F8697259AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C4121ABA523FEBAE7AB207E016AF99 /* Pods-MFramework.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MFramework/Pods-MFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MFramework/Pods-MFramework.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A27840596726D48B43FE1AEF4E4A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7082726A389663B77EFA67D647E140 /* Pods-MercutioProject-Mercutio.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MercutioProject-Mercutio/Pods-MercutioProject-Mercutio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MercutioProject-Mercutio/Pods-MercutioProject-Mercutio.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1138E87600866B5DABBB3E5307D78E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3713DC422D3F52CDE70CF04C970673 /* Pods-MercutioProject-MercutioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MercutioProject-MercutioTests/Pods-MercutioProject-MercutioTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MercutioProject-MercutioTests/Pods-MercutioProject-MercutioTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75317CC69C99BC3E35086671716C8735 /* Build configuration list for PBXNativeTarget "Pods-MFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A296DDC93FF02BB527B76F8697259AD3 /* Debug */,
+				9223C8BD097CDE0D1E9035C57F0629B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C85F6701630DACAC73C54B3A02C321 /* Build configuration list for PBXNativeTarget "Pods-MercutioProject-Mercutio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A27840596726D48B43FE1AEF4E4A35 /* Debug */,
+				788388B7D402E8B1159EF9EE7F8BE07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A766610912C05B3476DA15ED51F42B /* Build configuration list for PBXNativeTarget "Pods-MercutioProject-MercutioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643175457B6F5C693FA4BBCA5B27DF4A /* Debug */,
+				E1138E87600866B5DABBB3E5307D78E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

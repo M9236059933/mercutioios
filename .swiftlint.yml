@@ -1,0 +1,14 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+  - MercutioUITests
+  - fastlane
+  - MFramework/Firebase/Storage/Storage.swift
+  - MFramework/Firebase/Pushes/Pushes.swift
+  - MFramework/Firebase/Pushes/InApp.swift
+  - MFramework/Firebase/Firestore/Database.swift
+  - MFramework/Firebase/Firestore/Firestore.swift
+  - MFramework/Components/SFIcon.swift
+  - MFramework/Check
+disabled_rules: # rule identifiers turned on by default to exclude from running
+  - multiple_closures_with_trailing_closure
